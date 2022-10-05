@@ -49,6 +49,7 @@
                     <resultsFileFormat>csv</resultsFileFormat>
                     <ignoreResultFailures>false</ignoreResultFailures>
                     <suppressJMeterOutput>true</suppressJMeterOutput>
+                    <errorRateThresholdInPercent>5</errorRateThresholdInPercent>
                 </configuration>
             </plugin>
         </plugins>

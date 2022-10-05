@@ -34,7 +34,21 @@
                     </execution>
                 </executions>
                 <configuration>
+                    <testFilesIncluded>
+                        <jMeterTestFile>Blaze_Demo.jmx</jMeterTestFile>
+                    </testFilesIncluded>
+                    <propertiesUser>
+                        <virtualUsers>1</virtualUsers>
+                        <testIterations>1</testIterations>
+                        <rampUpTime>1</rampUpTime>
+                    </propertiesUser>
                     <generateReports>true</generateReports>
+                    <testResultsTimestamp>true</testResultsTimestamp>
+                    <appendResultsTimestamp>true</appendResultsTimestamp>
+                    <resultsFileNameDateFormat>ddMMYYYY_HHmm</resultsFileNameDateFormat>
+                    <resultsFileFormat>csv</resultsFileFormat>
+                    <ignoreResultFailures>false</ignoreResultFailures>
+                    <suppressJMeterOutput>true</suppressJMeterOutput>
                 </configuration>
             </plugin>
         </plugins>

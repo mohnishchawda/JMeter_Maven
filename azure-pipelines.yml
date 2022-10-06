@@ -19,7 +19,7 @@ steps:
     jdkVersionOption: '1.8'
     jdkArchitectureOption: 'x64'
     publishJUnitResults: false
-    goals: 'verify'
+    goals: 'clean verify'
 
 - task: PublishBuildArtifacts@1
   displayName: Publish JMeter Load Test Artifacts

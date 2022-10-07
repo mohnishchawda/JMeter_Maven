@@ -38,9 +38,9 @@
                         <jMeterTestFile>Blaze_Demo.jmx</jMeterTestFile>
                     </testFilesIncluded>
                     <propertiesUser>
-                        <virtualUsers>${env.VIRTUAL_USERS}</virtualUsers>
-                        <testIterations>${env.TEST_ITERATIONS_PER_USER}</testIterations>
-                        <rampUpTime>${env.RAMP_UP_SECONDS}</rampUpTime>
+                        <virtualUsers>1</virtualUsers>
+                        <testIterations>1</testIterations>
+                        <rampUpTime>1</rampUpTime>
                     </propertiesUser>
                     <generateReports>true</generateReports>
                     <testResultsTimestamp>true</testResultsTimestamp>
